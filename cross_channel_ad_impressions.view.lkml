@@ -86,6 +86,6 @@ explore: cross_channel_ad_impressions {
   view_name: fact
 }
 
-view: cross_channel_ad_impressions_template {
-  extends: [cross_channel_ad_impressions_base]
+view: cross_channel_ad_impressions {
+  extends: [cross_channel_ad_impressions_base, cross_channel_ad_impressions_dt]
 }
