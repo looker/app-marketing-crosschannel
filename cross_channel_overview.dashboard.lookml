@@ -1,5 +1,5 @@
-- dashboard: marketing_analytics_overview
-  title: Marketing Analytics Overview - This Quarter vs Last
+- dashboard: cross_channel_overview
+  title: Digital Marketing Overview
   layout: newspaper
   embed_style:
     background_color: "#f6f8fa"
@@ -12,7 +12,7 @@
   - title: Conversions
     name: Conversions
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: single_value
     fields:
     - fact.total_cost
@@ -134,7 +134,7 @@
   - title: Cost Per Conversion
     name: Cost Per Conversion
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: single_value
     fields:
     - fact.total_cost
@@ -256,7 +256,7 @@
   - title: Conversion Rate
     name: Conversion Rate
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: single_value
     fields:
     - fact.total_cost
@@ -378,7 +378,7 @@
   - title: Per Click
     name: Per Click
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: single_value
     fields:
     - fact.total_cost
@@ -499,7 +499,7 @@
   - title: Click Rate
     name: Click Rate
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: single_value
     fields:
     - fact.total_cost
@@ -621,7 +621,7 @@
   - title: Funnel
     name: Funnel
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: looker_column
     fields:
     - fact.total_impressions
@@ -718,9 +718,10 @@
   - title: Channels
     name: Channels
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: table
     fields:
+    - fact.platform
     - fact.channel
     - fact.total_cost
     - fact.total_conversions
@@ -780,7 +781,7 @@
   - title: Conversion Trend
     name: Conversion Trend
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: looker_area
     fields:
     - fact.date_period_dynamic_grain
@@ -935,7 +936,7 @@
   - title: Click Trend
     name: Click Trend
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: looker_line
     fields:
     - fact.date_period_dynamic_grain
@@ -1088,7 +1089,7 @@
   - title: Spend
     name: Spend
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: single_value
     fields:
     - fact.total_cost
@@ -1211,7 +1212,7 @@
   - title: Spend To Date
     name: Spend To Date
     model: marketing_analytics
-    explore: cross_channel_ad_group_date_fact
+    explore: cross_channel_ad_impressions
     type: looker_area
     fields:
     - fact.date_day_of_period
