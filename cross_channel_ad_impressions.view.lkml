@@ -115,6 +115,10 @@ view: cross_channel_ad_impressions {
 
   dimension: cross_channel_ad_group_key_base {
     hidden: yes
-    sql: ${platform} || ${channel} || ${account_id} || ${campaign_id} || ${ad_group_id} ;;
+    sql:  {% if _dialect._name == 'redshift' %}
+          ${platform} || ${channel} || ${account_id} || ${campaign_id} || ${ad_group_id}
+          {% else %}
+          CONCAT(${platform}, ${channel}, ${account_id}, ${campaign_id}, ${ad_group_id})
+          {% endif %} ;;
   }
 }
