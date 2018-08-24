@@ -39,6 +39,8 @@ view: google_ads_ad_impressions {
   extends: [cross_channel_ad_impressions_base]
 
   derived_table: {
+    distribution: "_date"
+    sortkeys: ["_date"]
     datagroup_trigger: adwords_etl_datagroup
     explore_source: ad_impressions_ad_group {
       column: _date { field: fact.date_date }
@@ -69,6 +71,8 @@ view: facebook_ads_ad_impressions {
   extends: [cross_channel_ad_impressions_base]
 
   derived_table: {
+    sortkeys: ["_date"]
+    distribution: "_date"
     datagroup_trigger: facebook_ads_etl_datagroup
     explore_source: fb_ad_impressions_platform_and_device {
       column: _date { field: fact.date_date}
@@ -111,6 +115,6 @@ view: cross_channel_ad_impressions {
 
   dimension: cross_channel_ad_group_key_base {
     hidden: yes
-    sql: concat(${platform}, ${channel}, ${account_id}, ${campaign_id}, ${ad_group_id}) ;;
+    sql: ${platform} || ${channel} || ${account_id} || ${campaign_id} || ${ad_group_id} ;;
   }
 }
