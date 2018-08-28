@@ -20,75 +20,15 @@ view: cross_channel_ad_impressions_base {
   dimension: ad_group_name {}
   dimension: cross_channel_ad_group_key_base {
     hidden: yes
-    sql: concat(${channel}, ${account_id}, ${campaign_id}, ${ad_group_id}) ;;
+    sql:  {% if _dialect._name == 'redshift' %}
+          ${channel} || ${account_id} || ${campaign_id} || ${ad_group_id}
+          {% else %}
+          CONCAT(${channel}, ${account_id}, ${campaign_id}, ${ad_group_id})
+          {% endif %} ;;
   }
   dimension: key_base {
     hidden: yes
     sql: ${cross_channel_ad_group_key_base} ;;
-  }
-}
-
-explore: google_ads_ad_impressions {
-  persist_with: adwords_etl_datagroup
-  hidden: yes
-  from: google_ads_ad_impressions
-  view_name: fact
-}
-
-view: google_ads_ad_impressions {
-  extends: [cross_channel_ad_impressions_base]
-
-  derived_table: {
-    distribution: "_date"
-    sortkeys: ["_date"]
-    datagroup_trigger: adwords_etl_datagroup
-    explore_source: ad_impressions_ad_group {
-      column: _date { field: fact.date_date }
-      column: channel { field: fact.ad_network_type }
-      column: account_id { field: fact.external_customer_id_string }
-      column: account_name { field: customer.account_descriptive_name }
-      column: campaign_id { field: fact.campaign_id_string }
-      column: campaign_name { field: campaign.name }
-      column: ad_group_id { field: fact.ad_group_id_string }
-      column: ad_group_name { field: ad_group.ad_group_name }
-      column: cost { field: fact.total_cost }
-      column: impressions { field: fact.total_impressions }
-      column: clicks { field: fact.total_clicks }
-      column: conversions { field: fact.total_conversions }
-      column: conversionvalue { field: fact.total_conversionvalue }
-    }
-  }
-}
-
-explore: facebook_ads_ad_impressions {
-  persist_with: facebook_ads_etl_datagroup
-  hidden: yes
-  from: facebook_ads_ad_impressions
-  view_name: fact
-}
-
-view: facebook_ads_ad_impressions {
-  extends: [cross_channel_ad_impressions_base]
-
-  derived_table: {
-    sortkeys: ["_date"]
-    distribution: "_date"
-    datagroup_trigger: facebook_ads_etl_datagroup
-    explore_source: fb_ad_impressions_platform_and_device {
-      column: _date { field: fact.date_date}
-      column: channel { field: fact.publisher_platform }
-      column: account_id { field: fact.account_id }
-      column: account_name { field: fact.account_name }
-      column: campaign_id { field: fact.campaign_id }
-      column: campaign_name { field: fact.campaign_name }
-      column: ad_group_id { field: fact.adset_id }
-      column: ad_group_name { field: fact.adset_name }
-      column: cost { field: fact.total_cost }
-      column: impressions { field: fact.total_impressions }
-      column: clicks { field: fact.total_clicks }
-      column: conversions { field: fact.total_conversions }
-      column: conversionvalue { field: fact.total_conversionvalue }
-    }
   }
 }
 
