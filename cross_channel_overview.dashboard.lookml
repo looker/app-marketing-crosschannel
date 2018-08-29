@@ -1404,7 +1404,7 @@
     allow_multiple_values: true
     required: true
     model: marketing_analytics
-    explore: period_fact
+    explore: cross_channel_ad_impressions
     field: fact.period
   - name: Period Latest
     title: Period Latest
@@ -1413,5 +1413,5 @@
     allow_multiple_values: true
     required: false
     model: marketing_analytics
-    explore: period_fact
+    explore: cross_channel_ad_impressions
     field: fact.date_period_latest
