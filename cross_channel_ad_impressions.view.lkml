@@ -61,4 +61,6 @@ view: cross_channel_ad_impressions {
           CONCAT(${platform}, ${channel}, ${account_id}, ${campaign_id}, ${ad_group_id})
           {% endif %} ;;
   }
+
+  dimension: platform {}
 }
