@@ -1,4 +1,4 @@
-- dashboard: digital_marketing_overview
+- dashboard: cross_channel_overview
   title: Digital Marketing Overview
   layout: newspaper
   embed_style:
