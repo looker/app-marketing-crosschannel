@@ -143,9 +143,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 0
     col: 8
     width: 16
@@ -332,9 +332,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 0
     col: 0
     width: 8
@@ -460,9 +460,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 5
     col: 0
     width: 8
@@ -585,9 +585,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 8
     col: 6
     width: 6
@@ -710,9 +710,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 8
     col: 0
     width: 6
@@ -835,9 +835,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 8
     col: 12
     width: 6
@@ -960,9 +960,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 8
     col: 18
     width: 6
@@ -1137,9 +1137,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 11
     col: 0
     width: 6
@@ -1290,9 +1290,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 11
     col: 6
     width: 6
@@ -1467,9 +1467,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 11
     col: 12
     width: 6
@@ -1594,9 +1594,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 11
     col: 18
     width: 6
@@ -1703,9 +1703,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 14
     col: 0
     width: 12
@@ -1828,9 +1828,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 14
     col: 12
     width: 6
@@ -1953,9 +1953,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 14
     col: 18
     width: 6
@@ -2080,9 +2080,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 17
     col: 18
     width: 6
@@ -2207,9 +2207,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 17
     col: 12
     width: 6
@@ -2277,9 +2277,9 @@
       Period Latest: fact.date_period_latest
       Platform: fact.platform
       Channel: fact.channel
-      Account Name: fact.account_name
-      Campaign Name: fact.campaign_name
-      Ad Group Name: fact.ad_group_name
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
     row: 20
     col: 0
     width: 24
@@ -2330,8 +2330,8 @@
     - Period
     - Period Latest
     field: fact.channel
-  - name: Account Name
-    title: Account Name
+  - name: Account
+    title: Account
     type: field_filter
     default_value: ''
     allow_multiple_values: true
@@ -2344,8 +2344,8 @@
     - Platform
     - Channel
     field: fact.account_name
-  - name: Campaign Name
-    title: Campaign Name
+  - name: Campaign
+    title: Campaign
     type: field_filter
     default_value: ''
     allow_multiple_values: true
@@ -2357,10 +2357,10 @@
     - Period Latest
     - Platform
     - Channel
-    - Account Name
+    - Account
     field: fact.campaign_name
-  - name: Ad Group Name
-    title: Ad Group Name
+  - name: Ad Group
+    title: Ad Group
     type: field_filter
     default_value: ''
     allow_multiple_values: true
@@ -2372,6 +2372,6 @@
     - Period Latest
     - Platform
     - Channel
-    - Account Name
-    - Campaign Name
+    - Account
+    - Campaign
     field: fact.ad_group_name
