@@ -1,5 +1,5 @@
 view: cross_channel_ad_impressions_base {
-  extends: [ad_metrics_base, date_base, period_base, date_primary_key_base]
+  extends: [ad_metrics_base, date_base, period_base, date_primary_key_base, ad_metrics_period_comparison_base, ad_metrics_weighted_period_comparison_base]
 
   dimension: _date {
     hidden: yes
@@ -21,9 +21,9 @@ view: cross_channel_ad_impressions_base {
   dimension: cross_channel_ad_group_key_base {
     hidden: yes
     sql:  {% if _dialect._name == 'redshift' %}
-          ${channel} || ${account_id} || ${campaign_id} || ${ad_group_id}
+          ${channel} || '-' || ${account_id} || '-' || ${campaign_id} || '-' || ${ad_group_id}
           {% else %}
-          CONCAT(${channel}, ${account_id}, ${campaign_id}, ${ad_group_id})
+          ARRAY_TO_STRING(${channel}, ${account_id}, ${campaign_id}, ${ad_group_id}, "-")
           {% endif %} ;;
   }
   dimension: key_base {
@@ -48,6 +48,18 @@ explore: cross_channel_ad_impressions {
       ${fact.date_day_of_period} = ${last_fact.date_day_of_period} ;;
     relationship: one_to_one
   }
+  join: total {
+    from: cross_channel_date_fact
+    view_label: "Total This Period"
+    sql_on: ${fact.date_period} = ${total.date_period} ;;
+    relationship: many_to_one
+  }
+  join: last_total {
+    from: cross_channel_date_fact
+    view_label: "Total Last Period"
+    sql_on: ${fact.date_last_period} = ${last_total.date_period} ;;
+    relationship: many_to_one
+  }
 }
 
 view: cross_channel_ad_impressions {
@@ -56,9 +68,9 @@ view: cross_channel_ad_impressions {
   dimension: cross_channel_ad_group_key_base {
     hidden: yes
     sql:  {% if _dialect._name == 'redshift' %}
-          ${platform} || ${channel} || ${account_id} || ${campaign_id} || ${ad_group_id}
+          ${platform} || '-' || ${channel} || '-' || ${account_id} || '-' || ${campaign_id} || '-' || ${ad_group_id}
           {% else %}
-          CONCAT(${platform}, ${channel}, ${account_id}, ${campaign_id}, ${ad_group_id})
+          ARRAY_TO_STRING([${platform}, ${channel}, ${account_id}, ${campaign_id}, ${ad_group_id}], "-")
           {% endif %} ;;
   }
 

@@ -1,13 +1,7 @@
 - dashboard: cross_channel_overview
+  extends: cross_channel_base
   title: Digital Marketing Overview
   layout: newspaper
-  embed_style:
-    background_color: "#f6f8fa"
-    show_title: true
-    title_color: "#3a4245"
-    show_filters_bar: false
-    tile_text_color: "#3a4245"
-    text_tile_text_color: ''
   elements:
   - title: Spend
     name: Spend Trend
@@ -24,7 +18,7 @@
     pivots:
     - fact.platform
     sorts:
-    - fact.platform desc
+    - fact.platform
     - fact.date_period_dynamic_grain desc
     limit: 500
     column_limit: 50
@@ -159,7 +153,7 @@
     - fact.total_cost
     - fact.platform
     sorts:
-    - fact.platform desc
+    - fact.platform
     limit: 500
     column_limit: 50
     value_labels: legend
@@ -480,7 +474,7 @@
     - fact.platform
     sorts:
     - fact.date_period_dynamic_grain desc
-    - fact.platform desc 0
+    - fact.platform
     limit: 500
     column_limit: 50
     stacking: ''
@@ -605,7 +599,7 @@
     - fact.platform
     sorts:
     - fact.date_period_dynamic_grain desc
-    - fact.platform desc 0
+    - fact.platform
     limit: 500
     column_limit: 50
     stacking: ''
@@ -730,7 +724,7 @@
     - fact.platform
     sorts:
     - fact.date_period_dynamic_grain desc
-    - fact.platform desc 0
+    - fact.platform
     limit: 500
     column_limit: 50
     stacking: ''
@@ -855,7 +849,7 @@
     - fact.platform
     sorts:
     - fact.date_period_dynamic_grain desc
-    - fact.platform desc 0
+    - fact.platform
     limit: 500
     column_limit: 50
     stacking: ''
@@ -1723,7 +1717,7 @@
     - fact.platform
     sorts:
     - fact.date_period_dynamic_grain desc
-    - fact.platform desc 0
+    - fact.platform
     limit: 500
     column_limit: 50
     stacking: ''
@@ -1848,7 +1842,7 @@
     - fact.platform
     sorts:
     - fact.date_period_dynamic_grain desc
-    - fact.platform desc 0
+    - fact.platform
     limit: 500
     column_limit: 50
     stacking: ''
@@ -2284,94 +2278,3 @@
     col: 0
     width: 24
     height: 6
-  filters:
-  - name: Period
-    title: Period
-    type: field_filter
-    default_value: 28 day
-    allow_multiple_values: false
-    required: true
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    listens_to_filters: []
-    field: fact.period
-  - name: Period Latest
-    title: Period Latest
-    type: field_filter
-    default_value: 'Yes'
-    allow_multiple_values: false
-    required: true
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    listens_to_filters: []
-    field: fact.date_period_latest
-  - name: Platform
-    title: Platform
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Period
-    - Period Latest
-    field: fact.platform
-  - name: Channel
-    title: Channel
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Platform
-    - Period
-    - Period Latest
-    field: fact.channel
-  - name: Account
-    title: Account
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Period
-    - Period Latest
-    - Platform
-    - Channel
-    field: fact.account_name
-  - name: Campaign
-    title: Campaign
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Period
-    - Period Latest
-    - Platform
-    - Channel
-    - Account
-    field: fact.campaign_name
-  - name: Ad Group
-    title: Ad Group
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Period
-    - Period Latest
-    - Platform
-    - Channel
-    - Account
-    - Campaign
-    field: fact.ad_group_name
