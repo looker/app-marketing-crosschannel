@@ -1,4 +1,4 @@
-- dashboard: cross_channel__cost_per_impression
+- dashboard: cross_channel_cost_per_impression
   title: Cross Channel - Cost Per Impression
   extends: cross_channel_base
   elements:
