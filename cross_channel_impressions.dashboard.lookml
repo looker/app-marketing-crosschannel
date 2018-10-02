@@ -1,4 +1,4 @@
-- dashboard: cross_channel__impressions
+- dashboard: cross_channel_impressions
   title: Cross Channel - Impressions
   extends: cross_channel_base
   elements:
