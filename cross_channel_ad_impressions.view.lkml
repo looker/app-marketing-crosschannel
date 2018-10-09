@@ -5,9 +5,15 @@ view: cross_channel_ad_impressions_base {
     hidden: yes
     type: date_raw
   }
-  dimension: channel {}
+  dimension: channel {
+    order_by_field: sort_order
+  }
   dimension: account_id {
     hidden: yes
+  }
+  dimension: sort_order {
+    hidden: yes
+    type: number
   }
   dimension: campaign_id {
     hidden: yes
