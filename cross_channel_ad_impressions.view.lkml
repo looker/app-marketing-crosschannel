@@ -5,8 +5,7 @@ view: cross_channel_ad_impressions_base {
     hidden: yes
     type: date_raw
   }
-  dimension: channel {
-  }
+  dimension: channel {}
   dimension: account_id {
     hidden: yes
   }
