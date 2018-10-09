@@ -6,13 +6,12 @@ view: cross_channel_ad_impressions_base {
     type: date_raw
   }
   dimension: channel {
-    order_by_field: sort_order
   }
   dimension: account_id {
     hidden: yes
   }
   dimension: sort_order {
-    hidden: yes
+    hidden: no
     type: number
   }
   dimension: campaign_id {
@@ -80,5 +79,7 @@ view: cross_channel_ad_impressions {
           {% endif %} ;;
   }
 
-  dimension: platform {}
+  dimension: platform {
+    order_by_field: sort_order
+  }
 }
