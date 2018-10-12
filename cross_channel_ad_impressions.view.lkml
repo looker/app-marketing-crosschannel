@@ -10,7 +10,7 @@ view: cross_channel_ad_impressions_base {
     hidden: yes
   }
   dimension: sort_order {
-    hidden: no
+    hidden: yes
     type: number
   }
   dimension: campaign_id {
