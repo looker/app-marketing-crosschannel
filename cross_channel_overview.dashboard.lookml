@@ -3,7 +3,7 @@
   title: Digital Marketing Overview
   layout: newspaper
   elements:
-  - title: Spend
+  - title: Spend Trend
     name: Spend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
@@ -333,7 +333,7 @@
     col: 0
     width: 8
     height: 5
-  - title: Spend
+  - title: Spend Pie
     name: Spend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
