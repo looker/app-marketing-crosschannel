@@ -3,8 +3,8 @@
   title: Digital Marketing Overview
   layout: newspaper
   elements:
-  - title: Spend Trend
-    name: Spend
+  - title: Spend
+    name: Spend Trend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: looker_area
@@ -333,8 +333,8 @@
     col: 0
     width: 8
     height: 5
-  - title: Spend Pie
-    name: Spend
+  - title: Spend
+    name: Spend Pie
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
