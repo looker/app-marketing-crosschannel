@@ -961,7 +961,7 @@
     col: 18
     width: 6
     height: 3
-  - title: Impressions
+  - title: Impressions Single Value
     name: Impressions
     model: marketing_analytics
     explore: cross_channel_ad_impressions
