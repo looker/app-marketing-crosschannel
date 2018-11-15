@@ -961,8 +961,8 @@
     col: 18
     width: 6
     height: 3
-  - title: Impressions Single Value
-    name: Impressions
+  - title: Impressions
+    name: Impressions Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1139,7 +1139,7 @@
     width: 6
     height: 3
   - title: CPM
-    name: CPM
+    name: CPM Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1292,7 +1292,7 @@
     width: 6
     height: 3
   - title: Clicks
-    name: Clicks
+    name: Clicks Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1973,7 +1973,7 @@
     width: 6
     height: 3
   - title: Conversions
-    name: Conversions
+    name: Conversions Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
