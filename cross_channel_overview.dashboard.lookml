@@ -66,18 +66,18 @@
       - id: LinkedIn - fact.total_cost
         name: LinkedIn
         axisId: fact.total_cost
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 2020
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 66
       - id: Google - fact.total_cost
         name: Google
         axisId: fact.total_cost
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 2023
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 71
       - id: Facebook - fact.total_cost
         name: Facebook
         axisId: fact.total_cost
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 2026
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 76
       showLabels: false
       showValues: false
       maxValue:
@@ -87,8 +87,8 @@
       tickDensity: default
       tickDensityCustom:
       type: linear
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 2017
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 63
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -145,7 +145,7 @@
     width: 16
     height: 8
   - title: Spend
-    name: Spend Pie
+    name: Spend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: looker_pie
@@ -232,11 +232,11 @@
       series:
       - id: fact.average_cost_per_conversion
         name: Cost per Conversion
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1184
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 233
         axisId: fact.average_cost_per_conversion
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1172
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 221
     - label:
       maxValue:
       minValue:
@@ -252,10 +252,10 @@
       - id: fact.total_conversions
         name: Conversions
         axisId: fact.total_conversions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1203
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1191
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 252
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 240
     - label: ''
       maxValue:
       minValue:
@@ -271,10 +271,10 @@
       - id: fact.total_impressions
         name: Impressions
         axisId: fact.total_impressions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1222
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1210
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 271
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 259
     - label: ''
       maxValue:
       minValue:
@@ -290,10 +290,10 @@
       - id: fact.total_cost
         name: Cost
         axisId: fact.total_cost
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1241
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1229
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 290
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 278
     - label: ''
       maxValue:
       minValue:
@@ -309,10 +309,10 @@
       - id: fact.total_clicks
         name: Clicks
         axisId: fact.total_clicks
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1260
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1248
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 309
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 297
     discontinuous_nulls: false
     focus_on_hover: false
     reference_lines: []
@@ -334,7 +334,7 @@
     width: 8
     height: 5
   - title: Spend
-    name: Spend
+    name: Spend Pie
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -462,7 +462,7 @@
     width: 8
     height: 3
   - title: CPM
-    name: CPM Trend
+    name: CPM
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: looker_line
@@ -515,25 +515,25 @@
       - id: LinkedIn - fact.average_cost_per_impression
         name: LinkedIn
         axisId: fact.average_cost_per_impression
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1786
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 515
       - id: Google - fact.average_cost_per_impression
         name: Google
         axisId: fact.average_cost_per_impression
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1789
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 520
       - id: Facebook - fact.average_cost_per_impression
         name: Facebook
         axisId: fact.average_cost_per_impression
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1792
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 525
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1783
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 512
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -587,7 +587,7 @@
     width: 6
     height: 3
   - title: Impressions
-    name: Impressions Trend
+    name: Impressions
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: looker_line
@@ -640,25 +640,25 @@
       - id: LinkedIn - fact.total_impressions
         name: LinkedIn
         axisId: fact.total_impressions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1447
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 640
       - id: Google - fact.total_impressions
         name: Google
         axisId: fact.total_impressions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1450
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 645
       - id: Facebook - fact.total_impressions
         name: Facebook
         axisId: fact.total_impressions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1453
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 650
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1444
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 637
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -712,7 +712,7 @@
     width: 6
     height: 3
   - title: Clicks
-    name: Clicks Trend
+    name: Clicks
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: looker_line
@@ -765,25 +765,25 @@
       - id: LinkedIn - fact.total_clicks
         name: LinkedIn
         axisId: fact.total_clicks
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1673
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 765
       - id: Google - fact.total_clicks
         name: Google
         axisId: fact.total_clicks
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1676
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 770
       - id: Facebook - fact.total_clicks
         name: Facebook
         axisId: fact.total_clicks
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1679
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 775
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1670
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 762
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -837,7 +837,7 @@
     width: 6
     height: 3
   - title: Cost per Click
-    name: Cost per Click Trend
+    name: Cost per Click
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: looker_line
@@ -890,25 +890,25 @@
       - id: LinkedIn - fact.average_cost_per_click
         name: LinkedIn
         axisId: fact.average_cost_per_click
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1899
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 890
       - id: Google - fact.average_cost_per_click
         name: Google
         axisId: fact.average_cost_per_click
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1902
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 895
       - id: Facebook - fact.average_cost_per_click
         name: Facebook
         axisId: fact.average_cost_per_click
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1905
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 900
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1896
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 887
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -962,7 +962,7 @@
     width: 6
     height: 3
   - title: Impressions
-    name: Impressions
+    name: Impressions Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1139,7 +1139,7 @@
     width: 6
     height: 3
   - title: CPM
-    name: CPM
+    name: CPM Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1292,7 +1292,7 @@
     width: 6
     height: 3
   - title: Clicks
-    name: Clicks
+    name: Clicks Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1595,117 +1595,8 @@
     col: 18
     width: 6
     height: 3
-  - title: Funnel
-    name: Funnel
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_column
-    fields:
-    - fact.total_impressions
-    - fact.total_clicks
-    - fact.total_conversions
-    - fact.platform
-    sorts:
-    - fact.platform
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    colors:
-    - "#d06180"
-    - "#a4a6a9"
-    - "#7869df"
-    - "#6e98f9"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#8ac8ca"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea9895"
-    - "#f1e582"
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: false
-    point_style: none
-    series_colors: {}
-    series_types: {}
-    limit_displayed_rows: false
-    y_axes:
-    - label: ''
-      maxValue:
-      minValue:
-      orientation: left
-      showLabels: true
-      showValues: true
-      tickDensity: default
-      tickDensityCustom: 5
-      type: log
-      unpinAxis: false
-      valueFormat:
-      series:
-      - id: fact.total_impressions
-        name: Impressions
-        axisId: fact.total_impressions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 62
-      - id: fact.total_clicks
-        name: Clicks
-        axisId: fact.total_clicks
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 67
-      - id: fact.total_conversions
-        name: Conversions
-        axisId: fact.total_conversions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 72
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 50
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    plot_size_by_field: false
-    ordering: none
-    show_null_labels: false
-    show_dropoff: true
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    hidden_fields: []
-    label: Conversion Rate QTD
-    query_timezone: America/Los_Angeles
-    custom_color_enabled: false
-    custom_color: forestgreen
-    show_single_value_title: true
-    show_comparison: true
-    comparison_type: change
-    comparison_reverse_colors: false
-    show_comparison_label: false
-    single_value_title: Conversion Rate
-    comparison_label: ''
-    listen:
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-    row: 14
-    col: 0
-    width: 12
-    height: 6
   - title: Conversions
-    name: Conversions Trend
+    name: Conversions
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: looker_line
@@ -1758,25 +1649,25 @@
       - id: LinkedIn - fact.total_conversions
         name: LinkedIn
         axisId: fact.total_conversions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1334
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1758
       - id: Google - fact.total_conversions
         name: Google
         axisId: fact.total_conversions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1337
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1763
       - id: Facebook - fact.total_conversions
         name: Facebook
         axisId: fact.total_conversions
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1340
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1768
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1331
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 1755
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -1830,7 +1721,7 @@
     width: 6
     height: 3
   - title: Cost per Conversion
-    name: Cost per Conversion Trend
+    name: Cost per Conversion
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: looker_line
@@ -1883,25 +1774,25 @@
       - id: LinkedIn - fact.average_cost_per_conversion
         name: LinkedIn
         axisId: fact.average_cost_per_conversion
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1560
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1883
       - id: Google - fact.average_cost_per_conversion
         name: Google
         axisId: fact.average_cost_per_conversion
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1563
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1888
       - id: Facebook - fact.average_cost_per_conversion
         name: Facebook
         axisId: fact.average_cost_per_conversion
-        __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1566
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1893
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-marketing-crosschannel/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1557
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 1880
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -2082,7 +1973,7 @@
     width: 6
     height: 3
   - title: Conversions
-    name: Conversions
+    name: Conversions Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -2278,3 +2169,203 @@
     col: 0
     width: 24
     height: 6
+  - title: Funnel
+    name: Funnel
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    type: looker_column
+    fields:
+    - fact.total_impressions
+    - fact.total_clicks
+    - fact.total_conversions
+    - fact.platform
+    sorts:
+    - fact.platform
+    limit: 3
+    column_limit: 50
+    stacking: ''
+    colors:
+    - "#d06180"
+    - "#a4a6a9"
+    - "#7869df"
+    - "#6e98f9"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#8ac8ca"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea9895"
+    - "#f1e582"
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_types: {}
+    limit_displayed_rows: false
+    y_axes:
+    - label: ''
+      maxValue:
+      minValue:
+      orientation: left
+      showLabels: true
+      showValues: true
+      tickDensity: default
+      tickDensityCustom: 5
+      type: log
+      unpinAxis: false
+      valueFormat:
+      series:
+      - id: fact.total_impressions
+        name: Impressions
+        axisId: fact.total_impressions
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1648
+      - id: fact.total_clicks
+        name: Clicks
+        axisId: fact.total_clicks
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1653
+      - id: fact.total_conversions
+        name: Conversions
+        axisId: fact.total_conversions
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 1658
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 1636
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    ordering: none
+    show_null_labels: false
+    show_dropoff: true
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    hidden_fields: []
+    label: Conversion Rate QTD
+    query_timezone: America/Los_Angeles
+    custom_color_enabled: false
+    custom_color: forestgreen
+    show_single_value_title: true
+    show_comparison: true
+    comparison_type: change
+    comparison_reverse_colors: false
+    show_comparison_label: false
+    single_value_title: Conversion Rate
+    comparison_label: ''
+    listen:
+      Period: fact.period
+      Period Latest: fact.date_period_latest
+      Platform: fact.platform
+      Channel: fact.channel
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
+    row: 14
+    col: 0
+    width: 12
+    height: 6
+  filters:
+  - name: Period
+    title: Period
+    type: field_filter
+    default_value: 28 day
+    allow_multiple_values: false
+    required: true
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    listens_to_filters: []
+    field: fact.period
+  - name: Period Latest
+    title: Period Latest
+    type: field_filter
+    default_value: 'Yes'
+    allow_multiple_values: false
+    required: true
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    listens_to_filters: []
+    field: fact.date_period_latest
+  - name: Platform
+    title: Platform
+    type: field_filter
+    default_value: ''
+    allow_multiple_values: true
+    required: false
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    listens_to_filters:
+    - Period
+    - Period Latest
+    field: fact.platform
+  - name: Channel
+    title: Channel
+    type: field_filter
+    default_value: ''
+    allow_multiple_values: true
+    required: false
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    listens_to_filters:
+    - Platform
+    - Period
+    - Period Latest
+    field: fact.channel
+  - name: Account
+    title: Account
+    type: field_filter
+    default_value: ''
+    allow_multiple_values: true
+    required: false
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    listens_to_filters:
+    - Period
+    - Period Latest
+    - Platform
+    - Channel
+    field: fact.account_name
+  - name: Campaign
+    title: Campaign
+    type: field_filter
+    default_value: ''
+    allow_multiple_values: true
+    required: false
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    listens_to_filters:
+    - Period
+    - Period Latest
+    - Platform
+    - Channel
+    - Account
+    field: fact.campaign_name
+  - name: Ad Group
+    title: Ad Group
+    type: field_filter
+    default_value: ''
+    allow_multiple_values: true
+    required: false
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    listens_to_filters:
+    - Period
+    - Period Latest
+    - Platform
+    - Channel
+    - Account
+    - Campaign
+    field: fact.ad_group_name
