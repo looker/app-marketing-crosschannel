@@ -75,10 +75,10 @@
       series:
       - id: fact.average_cost_per_conversion
         name: Cost per Conversion
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_spend.dashboard.lookml
         __LINE_NUM: 76
         axisId: fact.average_cost_per_conversion
-      __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_spend.dashboard.lookml
       __LINE_NUM: 64
     discontinuous_nulls: false
     focus_on_hover: false
@@ -112,307 +112,6 @@
     col: 0
     width: 16
     height: 11
-  - title: Channel Spend Change
-    name: Channel Spend Change
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_bar
-    fields:
-    - fact.channel
-    - fact.total_cost
-    - last_fact.total_cost
-    - fact.total_cost_period_delta
-    filters:
-      fact.total_cost_period_delta_abs: ">0"
-    sorts:
-    - fact.total_cost_period_delta_abs desc
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    show_value_labels: true
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    limit_displayed_rows: true
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    hidden_fields:
-    - fact.total_cost_period_delta
-    limit_displayed_rows_values:
-      show_hide: show
-      first_last: first
-      num_rows: '10'
-    y_axes:
-    - label: ''
-      maxValue:
-      minValue:
-      orientation: bottom
-      showLabels: true
-      showValues: false
-      tickDensity: default
-      tickDensityCustom:
-      type: linear
-      unpinAxis: false
-      valueFormat:
-      series:
-      - id: fact.average_cost_per_click
-        name: Period Fact
-        axisId: fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-        __LINE_NUM: 271
-      - id: last_fact.average_cost_per_click
-        name: Last Period Fact
-        axisId: last_fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-        __LINE_NUM: 276
-      __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-      __LINE_NUM: 259
-    series_colors: {}
-    colors:
-    - "#7869df"
-    - "#a6b7ff"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#dc9d4f"
-    - "#dc9d4f"
-    - "#ea9895"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea989"
-    x_axis_reversed: false
-    y_axis_reversed: false
-    listen:
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-    row: 11
-    col: 8
-    width: 8
-    height: 9
-  - title: Campaign Spend Change
-    name: Campaign Spend Change
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_bar
-    fields:
-    - fact.campaign_name
-    - fact.total_cost
-    - last_fact.total_cost
-    - fact.total_cost_period_delta
-    filters:
-      fact.total_cost_period_delta_abs: ">0"
-    sorts:
-    - fact.total_cost_period_delta_abs desc
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    show_value_labels: true
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    limit_displayed_rows: true
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    hidden_fields:
-    - fact.total_cost_period_delta
-    limit_displayed_rows_values:
-      show_hide: show
-      first_last: first
-      num_rows: '10'
-    y_axes:
-    - label: ''
-      maxValue:
-      minValue:
-      orientation: bottom
-      showLabels: true
-      showValues: false
-      tickDensity: default
-      tickDensityCustom:
-      type: linear
-      unpinAxis: false
-      valueFormat:
-      series:
-      - id: fact.average_cost_per_click
-        name: Period Fact
-        axisId: fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-        __LINE_NUM: 369
-      - id: last_fact.average_cost_per_click
-        name: Last Period Fact
-        axisId: last_fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-        __LINE_NUM: 374
-      __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-      __LINE_NUM: 357
-    series_colors: {}
-    colors:
-    - "#7869df"
-    - "#a6b7ff"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#dc9d4f"
-    - "#dc9d4f"
-    - "#ea9895"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea989"
-    x_axis_reversed: false
-    y_axis_reversed: false
-    listen:
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-    row: 11
-    col: 16
-    width: 8
-    height: 9
-  - title: Ad Group Spend Change
-    name: Ad Group Spend Change
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_bar
-    fields:
-    - fact.campaign_name
-    - fact.ad_group_name
-    - fact.total_cost
-    - last_fact.total_cost
-    - fact.total_cost_period_delta
-    filters:
-      fact.total_cost_period_delta_abs: ">0"
-    sorts:
-    - fact.total_cost_period_delta_abs desc
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    show_value_labels: true
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    limit_displayed_rows: true
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types: {}
-    hidden_fields:
-    - fact.total_cost_period_delta
-    limit_displayed_rows_values:
-      show_hide: show
-      first_last: first
-      num_rows: '10'
-    y_axes:
-    - label: ''
-      maxValue:
-      minValue:
-      orientation: bottom
-      showLabels: true
-      showValues: false
-      tickDensity: default
-      tickDensityCustom:
-      type: linear
-      unpinAxis: false
-      valueFormat:
-      series:
-      - id: fact.average_cost_per_click
-        name: Period Fact
-        axisId: fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-        __LINE_NUM: 468
-      - id: last_fact.average_cost_per_click
-        name: Last Period Fact
-        axisId: last_fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-        __LINE_NUM: 473
-      __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-      __LINE_NUM: 456
-    series_colors: {}
-    colors:
-    - "#7869df"
-    - "#a6b7ff"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#dc9d4f"
-    - "#dc9d4f"
-    - "#ea9895"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea989"
-    x_axis_reversed: false
-    y_axis_reversed: false
-    listen:
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-    row: 11
-    col: 0
-    width: 8
-    height: 9
   - title: Platform Spend Change
     name: Platform Spend Change
     model: marketing_analytics
@@ -474,15 +173,15 @@
       - id: fact.average_cost_per_click
         name: Period Fact
         axisId: fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-        __LINE_NUM: 173
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_spend.dashboard.lookml
+        __LINE_NUM: 474
       - id: last_fact.average_cost_per_click
         name: Last Period Fact
         axisId: last_fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-        __LINE_NUM: 178
-      __FILE: 1500e16d0623b608c5494007d6fa89ca42c50730171fb302e68ea4336c1f6c1cd8bb115e/cross_channel_spend.dashboard.lookml
-      __LINE_NUM: 161
+        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_spend.dashboard.lookml
+        __LINE_NUM: 479
+      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_spend.dashboard.lookml
+      __LINE_NUM: 462
     series_colors: {}
     colors:
     - "#7869df"
@@ -513,3 +212,280 @@
     col: 16
     width: 8
     height: 11
+  - title: Ad Group Spend Change
+    name: Ad Group Spend Change
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    type: looker_bar
+    fields:
+    - fact.campaign_name
+    - fact.ad_group_name
+    - fact.total_cost
+    - last_fact.total_cost
+    - fact.total_cost_period_delta
+    filters:
+      fact.total_cost_period_delta_abs: ">0"
+    sorts:
+    - fact.total_cost_period_delta desc
+    limit: 500
+    column_limit: 50
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#a6b7ff"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#dc9d4f"
+    - "#dc9d4f"
+    - "#ea9895"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea989"
+    show_value_labels: true
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_types: {}
+    limit_displayed_rows: true
+    limit_displayed_rows_values:
+      show_hide: show
+      first_last: first
+      num_rows: '10'
+    y_axes:
+    - label: ''
+      orientation: bottom
+      series:
+      - id: fact.total_cost
+        name: This Period
+        axisId: fact.total_cost
+      - id: last_fact.total_cost
+        name: Prior Period
+        axisId: last_fact.total_cost
+      showLabels: true
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    hidden_fields:
+    - fact.total_cost_period_delta
+    listen:
+      Platform: fact.platform
+      Channel: fact.channel
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
+      Period: fact.period
+      Period Latest: fact.date_period_latest
+    row: 11
+    col: 0
+    width: 8
+    height: 9
+  - title: Channel Spend Change
+    name: Channel Spend Change
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    type: looker_bar
+    fields:
+    - fact.channel
+    - fact.total_cost
+    - last_fact.total_cost
+    - fact.total_cost_period_delta
+    filters:
+      fact.total_cost_period_delta_abs: ">0"
+    sorts:
+    - fact.total_cost_period_delta desc
+    limit: 500
+    column_limit: 50
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#a6b7ff"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#dc9d4f"
+    - "#dc9d4f"
+    - "#ea9895"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea989"
+    show_value_labels: true
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_types: {}
+    limit_displayed_rows: true
+    limit_displayed_rows_values:
+      show_hide: show
+      first_last: first
+      num_rows: '10'
+    y_axes:
+    - label: ''
+      orientation: bottom
+      series:
+      - id: fact.total_cost
+        name: This Period
+        axisId: fact.total_cost
+      - id: last_fact.total_cost
+        name: Prior Period
+        axisId: last_fact.total_cost
+      showLabels: true
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    hidden_fields:
+    - fact.total_cost_period_delta
+    listen:
+      Platform: fact.platform
+      Channel: fact.channel
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
+      Period: fact.period
+      Period Latest: fact.date_period_latest
+    row: 11
+    col: 8
+    width: 8
+    height: 9
+  - title: Campaign Spend Change
+    name: Campaign Spend Change
+    model: marketing_analytics
+    explore: cross_channel_ad_impressions
+    type: looker_bar
+    fields:
+    - fact.campaign_name
+    - fact.total_cost
+    - last_fact.total_cost
+    - fact.total_cost_period_delta
+    filters:
+      fact.total_cost_period_delta_abs: ">0"
+    sorts:
+    - fact.total_cost_period_delta desc
+    limit: 500
+    column_limit: 50
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#a6b7ff"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#dc9d4f"
+    - "#dc9d4f"
+    - "#ea9895"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea989"
+    show_value_labels: true
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_types: {}
+    limit_displayed_rows: true
+    limit_displayed_rows_values:
+      show_hide: show
+      first_last: first
+      num_rows: '10'
+    y_axes:
+    - label: ''
+      orientation: bottom
+      series:
+      - id: fact.total_cost
+        name: This Period
+        axisId: fact.total_cost
+      - id: last_fact.total_cost
+        name: Prior Period
+        axisId: last_fact.total_cost
+      showLabels: true
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    hidden_fields:
+    - fact.total_cost_period_delta
+    listen:
+      Platform: fact.platform
+      Channel: fact.channel
+      Account: fact.account_name
+      Campaign: fact.campaign_name
+      Ad Group: fact.ad_group_name
+      Period: fact.period
+      Period Latest: fact.date_period_latest
+    row: 11
+    col: 16
+    width: 8
+    height: 9
