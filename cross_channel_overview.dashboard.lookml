@@ -66,17 +66,17 @@
       - id: LinkedIn - fact.total_cost
         name: LinkedIn
         axisId: fact.total_cost
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
         __LINE_NUM: 66
       - id: Google - fact.total_cost
         name: Google
         axisId: fact.total_cost
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
         __LINE_NUM: 71
       - id: Facebook - fact.total_cost
         name: Facebook
         axisId: fact.total_cost
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
         __LINE_NUM: 76
       showLabels: false
       showValues: false
@@ -87,7 +87,7 @@
       tickDensity: default
       tickDensityCustom:
       type: linear
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
       __LINE_NUM: 63
     y_axis_combined: true
     show_y_axis_labels: true
@@ -232,10 +232,10 @@
       series:
       - id: fact.average_cost_per_conversion
         name: Cost per Conversion
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
         __LINE_NUM: 233
         axisId: fact.average_cost_per_conversion
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
       __LINE_NUM: 221
     - label:
       maxValue:
@@ -252,9 +252,9 @@
       - id: fact.total_conversions
         name: Conversions
         axisId: fact.total_conversions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
         __LINE_NUM: 252
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
       __LINE_NUM: 240
     - label: ''
       maxValue:
@@ -271,9 +271,9 @@
       - id: fact.total_impressions
         name: Impressions
         axisId: fact.total_impressions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
         __LINE_NUM: 271
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
       __LINE_NUM: 259
     - label: ''
       maxValue:
@@ -290,9 +290,9 @@
       - id: fact.total_cost
         name: Cost
         axisId: fact.total_cost
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
         __LINE_NUM: 290
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
       __LINE_NUM: 278
     - label: ''
       maxValue:
@@ -309,9 +309,9 @@
       - id: fact.total_clicks
         name: Clicks
         axisId: fact.total_clicks
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
         __LINE_NUM: 309
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
+      __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
       __LINE_NUM: 297
     discontinuous_nulls: false
     focus_on_hover: false
@@ -334,7 +334,7 @@
     width: 8
     height: 5
   - title: Spend
-    name: Spend Pie
+    name: Spend Single Value
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -400,6 +400,7 @@
       value_format_name: percent_0
       _kind_hint: measure
       _type_hint: number
+    query_timezone: America/Los_Angeles
     custom_color_enabled: false
     custom_color: forestgreen
     show_single_value_title: false
@@ -408,7 +409,6 @@
     comparison_type: change
     comparison_reverse_colors: false
     show_comparison_label: false
-    query_timezone: America/Los_Angeles
     stacking: ''
     show_value_labels: false
     label_density: 25
@@ -461,508 +461,8 @@
     col: 0
     width: 8
     height: 3
-  - title: CPM
-    name: CPM
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_line
-    fields:
-    - fact.date_period_dynamic_grain
-    - fact.platform
-    - fact.average_cost_per_impression
-    pivots:
-    - fact.platform
-    sorts:
-    - fact.date_period_dynamic_grain desc
-    - fact.platform
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    colors:
-    - "#7869df"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea9895"
-    - "#f1e582"
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    hide_legend: true
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    point_style: none
-    series_colors: {}
-    series_labels:
-      fact.total_cost: Spend
-      fact.total_clicks: Clicks
-    series_types:
-      fact.total_clicks: area
-    limit_displayed_rows: false
-    hidden_series:
-    - fact.average_click_rate
-    - fact.total_clicks
-    y_axes:
-    - label: ''
-      orientation: left
-      series:
-      - id: LinkedIn - fact.average_cost_per_impression
-        name: LinkedIn
-        axisId: fact.average_cost_per_impression
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 515
-      - id: Google - fact.average_cost_per_impression
-        name: Google
-        axisId: fact.average_cost_per_impression
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 520
-      - id: Facebook - fact.average_cost_per_impression
-        name: Facebook
-        axisId: fact.average_cost_per_impression
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 525
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 512
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: false
-    x_axis_scale: time
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    plot_size_by_field: false
-    reference_lines: []
-    show_null_points: false
-    interpolation: linear
-    discontinuous_nulls: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    label: Average Cost per Conversion
-    ordering: none
-    show_null_labels: false
-    leftAxisLabelVisible: false
-    leftAxisLabel: ''
-    rightAxisLabelVisible: false
-    rightAxisLabel: ''
-    barColors:
-    - red
-    - blue
-    smoothedBars: false
-    orientation: automatic
-    labelPosition: left
-    percentType: total
-    percentPosition: inline
-    valuePosition: right
-    labelColorEnabled: false
-    labelColor: "#FFF"
-    show_dropoff: true
-    focus_on_hover: false
-    hidden_fields: []
-    listen:
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-    row: 8
-    col: 6
-    width: 6
-    height: 3
   - title: Impressions
-    name: Impressions
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_line
-    fields:
-    - fact.date_period_dynamic_grain
-    - fact.platform
-    - fact.total_impressions
-    pivots:
-    - fact.platform
-    sorts:
-    - fact.date_period_dynamic_grain desc
-    - fact.platform
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    colors:
-    - "#7869df"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea9895"
-    - "#f1e582"
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    hide_legend: true
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    point_style: none
-    series_colors: {}
-    series_labels:
-      fact.total_cost: Spend
-      fact.total_clicks: Clicks
-    series_types:
-      fact.total_clicks: area
-    limit_displayed_rows: false
-    hidden_series:
-    - fact.average_click_rate
-    - fact.total_clicks
-    y_axes:
-    - label: ''
-      orientation: left
-      series:
-      - id: LinkedIn - fact.total_impressions
-        name: LinkedIn
-        axisId: fact.total_impressions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 640
-      - id: Google - fact.total_impressions
-        name: Google
-        axisId: fact.total_impressions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 645
-      - id: Facebook - fact.total_impressions
-        name: Facebook
-        axisId: fact.total_impressions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 650
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 637
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: false
-    x_axis_scale: time
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    plot_size_by_field: false
-    reference_lines: []
-    show_null_points: false
-    interpolation: linear
-    discontinuous_nulls: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    label: Average Cost per Conversion
-    ordering: none
-    show_null_labels: false
-    leftAxisLabelVisible: false
-    leftAxisLabel: ''
-    rightAxisLabelVisible: false
-    rightAxisLabel: ''
-    barColors:
-    - red
-    - blue
-    smoothedBars: false
-    orientation: automatic
-    labelPosition: left
-    percentType: total
-    percentPosition: inline
-    valuePosition: right
-    labelColorEnabled: false
-    labelColor: "#FFF"
-    show_dropoff: true
-    focus_on_hover: false
-    hidden_fields: []
-    listen:
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-    row: 8
-    col: 0
-    width: 6
-    height: 3
-  - title: Clicks
-    name: Clicks
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_line
-    fields:
-    - fact.date_period_dynamic_grain
-    - fact.platform
-    - fact.total_clicks
-    pivots:
-    - fact.platform
-    sorts:
-    - fact.date_period_dynamic_grain desc
-    - fact.platform
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    colors:
-    - "#7869df"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea9895"
-    - "#f1e582"
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    hide_legend: true
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    point_style: none
-    series_colors: {}
-    series_labels:
-      fact.total_cost: Spend
-      fact.total_clicks: Clicks
-    series_types:
-      fact.total_clicks: area
-    limit_displayed_rows: false
-    hidden_series:
-    - fact.average_click_rate
-    - fact.total_clicks
-    y_axes:
-    - label: ''
-      orientation: left
-      series:
-      - id: LinkedIn - fact.total_clicks
-        name: LinkedIn
-        axisId: fact.total_clicks
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 765
-      - id: Google - fact.total_clicks
-        name: Google
-        axisId: fact.total_clicks
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 770
-      - id: Facebook - fact.total_clicks
-        name: Facebook
-        axisId: fact.total_clicks
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 775
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 762
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: false
-    x_axis_scale: time
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    plot_size_by_field: false
-    reference_lines: []
-    show_null_points: false
-    interpolation: linear
-    discontinuous_nulls: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    label: Average Cost per Conversion
-    ordering: none
-    show_null_labels: false
-    leftAxisLabelVisible: false
-    leftAxisLabel: ''
-    rightAxisLabelVisible: false
-    rightAxisLabel: ''
-    barColors:
-    - red
-    - blue
-    smoothedBars: false
-    orientation: automatic
-    labelPosition: left
-    percentType: total
-    percentPosition: inline
-    valuePosition: right
-    labelColorEnabled: false
-    labelColor: "#FFF"
-    show_dropoff: true
-    focus_on_hover: false
-    hidden_fields: []
-    listen:
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-    row: 8
-    col: 12
-    width: 6
-    height: 3
-  - title: Cost per Click
-    name: Cost per Click
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_line
-    fields:
-    - fact.date_period_dynamic_grain
-    - fact.average_cost_per_click
-    - fact.platform
-    pivots:
-    - fact.platform
-    sorts:
-    - fact.date_period_dynamic_grain desc
-    - fact.platform
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    colors:
-    - "#7869df"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea9895"
-    - "#f1e582"
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    hide_legend: true
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    point_style: none
-    series_colors: {}
-    series_labels:
-      fact.total_cost: Spend
-      fact.total_clicks: Clicks
-    series_types:
-      fact.total_clicks: area
-    limit_displayed_rows: false
-    hidden_series:
-    - fact.average_click_rate
-    - fact.total_clicks
-    y_axes:
-    - label: ''
-      orientation: left
-      series:
-      - id: LinkedIn - fact.average_cost_per_click
-        name: LinkedIn
-        axisId: fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 890
-      - id: Google - fact.average_cost_per_click
-        name: Google
-        axisId: fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 895
-      - id: Facebook - fact.average_cost_per_click
-        name: Facebook
-        axisId: fact.average_cost_per_click
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 900
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 887
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: false
-    x_axis_scale: time
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    plot_size_by_field: false
-    reference_lines: []
-    show_null_points: false
-    interpolation: linear
-    discontinuous_nulls: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    label: Average Cost per Conversion
-    ordering: none
-    show_null_labels: false
-    leftAxisLabelVisible: false
-    leftAxisLabel: ''
-    rightAxisLabelVisible: false
-    rightAxisLabel: ''
-    barColors:
-    - red
-    - blue
-    smoothedBars: false
-    orientation: automatic
-    labelPosition: left
-    percentType: total
-    percentPosition: inline
-    valuePosition: right
-    labelColorEnabled: false
-    labelColor: "#FFF"
-    show_dropoff: true
-    focus_on_hover: false
-    hidden_fields: []
-    listen:
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-    row: 8
-    col: 18
-    width: 6
-    height: 3
-  - title: Impressions
-    name: Impressions Single Value
+    name: Impressions Trend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1065,6 +565,7 @@
       value_format_name: decimal_0
       _kind_hint: measure
       _type_hint: number
+    query_timezone: America/Los_Angeles
     custom_color_enabled: false
     custom_color: forestgreen
     show_single_value_title: false
@@ -1073,7 +574,6 @@
     comparison_type: change
     comparison_reverse_colors: false
     show_comparison_label: false
-    query_timezone: America/Los_Angeles
     stacking: ''
     show_value_labels: false
     label_density: 25
@@ -1139,7 +639,7 @@
     width: 6
     height: 3
   - title: CPM
-    name: CPM Single Value
+    name: CPM Trend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1224,6 +724,7 @@
       value_format_name: percent_0
       _kind_hint: measure
       _type_hint: number
+    query_timezone: America/Los_Angeles
     custom_color_enabled: false
     custom_color: forestgreen
     show_single_value_title: false
@@ -1232,7 +733,6 @@
     comparison_type: change
     comparison_reverse_colors: false
     show_comparison_label: false
-    query_timezone: America/Los_Angeles
     stacking: ''
     show_value_labels: false
     label_density: 25
@@ -1292,7 +792,7 @@
     width: 6
     height: 3
   - title: Clicks
-    name: Clicks Single Value
+    name: Clicks Trend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1395,6 +895,7 @@
       value_format_name: decimal_0
       _kind_hint: measure
       _type_hint: number
+    query_timezone: America/Los_Angeles
     custom_color_enabled: false
     custom_color: forestgreen
     show_single_value_title: false
@@ -1403,7 +904,6 @@
     comparison_type: change
     comparison_reverse_colors: false
     show_comparison_label: false
-    query_timezone: America/Los_Angeles
     stacking: ''
     show_value_labels: false
     label_density: 25
@@ -1469,7 +969,7 @@
     width: 6
     height: 3
   - title: Per Click
-    name: Per Click
+    name: Per Click Trend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1534,6 +1034,7 @@
       value_format_name: percent_0
       _kind_hint: measure
       _type_hint: number
+    query_timezone: America/Los_Angeles
     custom_color_enabled: false
     custom_color: forestgreen
     show_single_value_title: false
@@ -1542,7 +1043,6 @@
     comparison_type: change
     comparison_reverse_colors: true
     show_comparison_label: false
-    query_timezone: America/Los_Angeles
     stacking: ''
     show_value_labels: false
     label_density: 25
@@ -1595,258 +1095,8 @@
     col: 18
     width: 6
     height: 3
-  - title: Conversions
-    name: Conversions
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_line
-    fields:
-    - fact.date_period_dynamic_grain
-    - fact.platform
-    - fact.total_conversions
-    pivots:
-    - fact.platform
-    sorts:
-    - fact.date_period_dynamic_grain desc
-    - fact.platform
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    colors:
-    - "#7869df"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea9895"
-    - "#f1e582"
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    hide_legend: true
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    point_style: none
-    series_colors: {}
-    series_labels:
-      fact.total_cost: Spend
-      fact.total_clicks: Clicks
-    series_types:
-      fact.total_clicks: area
-    limit_displayed_rows: false
-    hidden_series:
-    - fact.average_click_rate
-    - fact.total_clicks
-    y_axes:
-    - label: ''
-      orientation: left
-      series:
-      - id: LinkedIn - fact.total_conversions
-        name: LinkedIn
-        axisId: fact.total_conversions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1758
-      - id: Google - fact.total_conversions
-        name: Google
-        axisId: fact.total_conversions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1763
-      - id: Facebook - fact.total_conversions
-        name: Facebook
-        axisId: fact.total_conversions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1768
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1755
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: false
-    x_axis_scale: time
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    plot_size_by_field: false
-    reference_lines: []
-    show_null_points: false
-    interpolation: linear
-    discontinuous_nulls: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    label: Average Cost per Conversion
-    ordering: none
-    show_null_labels: false
-    leftAxisLabelVisible: false
-    leftAxisLabel: ''
-    rightAxisLabelVisible: false
-    rightAxisLabel: ''
-    barColors:
-    - red
-    - blue
-    smoothedBars: false
-    orientation: automatic
-    labelPosition: left
-    percentType: total
-    percentPosition: inline
-    valuePosition: right
-    labelColorEnabled: false
-    labelColor: "#FFF"
-    show_dropoff: true
-    focus_on_hover: false
-    hidden_fields: []
-    listen:
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-    row: 14
-    col: 12
-    width: 6
-    height: 3
-  - title: Cost per Conversion
-    name: Cost per Conversion
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    type: looker_line
-    fields:
-    - fact.date_period_dynamic_grain
-    - fact.platform
-    - fact.average_cost_per_conversion
-    pivots:
-    - fact.platform
-    sorts:
-    - fact.date_period_dynamic_grain desc
-    - fact.platform
-    limit: 500
-    column_limit: 50
-    stacking: ''
-    colors:
-    - "#7869df"
-    - "#6e98f9"
-    - "#8ac8ca"
-    - "#d06180"
-    - "#dc9d4f"
-    - "#4bb86a"
-    - "#a4a6a9"
-    - "#a6b7ff"
-    - "#afe8fd"
-    - "#ea9895"
-    - "#f1e582"
-    show_value_labels: false
-    label_density: 25
-    legend_position: center
-    hide_legend: true
-    x_axis_gridlines: false
-    y_axis_gridlines: false
-    show_view_names: false
-    point_style: none
-    series_colors: {}
-    series_labels:
-      fact.total_cost: Spend
-      fact.total_clicks: Clicks
-    series_types:
-      fact.total_clicks: area
-    limit_displayed_rows: false
-    hidden_series:
-    - fact.average_click_rate
-    - fact.total_clicks
-    y_axes:
-    - label: ''
-      orientation: left
-      series:
-      - id: LinkedIn - fact.average_cost_per_conversion
-        name: LinkedIn
-        axisId: fact.average_cost_per_conversion
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1883
-      - id: Google - fact.average_cost_per_conversion
-        name: Google
-        axisId: fact.average_cost_per_conversion
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1888
-      - id: Facebook - fact.average_cost_per_conversion
-        name: Facebook
-        axisId: fact.average_cost_per_conversion
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1893
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1880
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: false
-    show_x_axis_ticks: false
-    x_axis_scale: time
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    plot_size_by_field: false
-    reference_lines: []
-    show_null_points: false
-    interpolation: linear
-    discontinuous_nulls: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    label: Average Cost per Conversion
-    ordering: none
-    show_null_labels: false
-    leftAxisLabelVisible: false
-    leftAxisLabel: ''
-    rightAxisLabelVisible: false
-    rightAxisLabel: ''
-    barColors:
-    - red
-    - blue
-    smoothedBars: false
-    orientation: automatic
-    labelPosition: left
-    percentType: total
-    percentPosition: inline
-    valuePosition: right
-    labelColorEnabled: false
-    labelColor: "#FFF"
-    show_dropoff: true
-    focus_on_hover: false
-    hidden_fields: []
-    listen:
-      Period: fact.period
-      Period Latest: fact.date_period_latest
-      Platform: fact.platform
-      Channel: fact.channel
-      Account: fact.account_name
-      Campaign: fact.campaign_name
-      Ad Group: fact.ad_group_name
-    row: 14
-    col: 18
-    width: 6
-    height: 3
   - title: Cost Per Conversion
-    name: Cost Per Conversion
+    name: Cost Per Conversion Trend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -1911,6 +1161,7 @@
       value_format_name: percent_0
       _kind_hint: measure
       _type_hint: number
+    query_timezone: America/Los_Angeles
     custom_color_enabled: false
     custom_color: forestgreen
     show_single_value_title: false
@@ -1919,7 +1170,6 @@
     comparison_type: change
     comparison_reverse_colors: true
     show_comparison_label: false
-    query_timezone: America/Los_Angeles
     stacking: ''
     show_value_labels: false
     label_density: 25
@@ -1973,7 +1223,7 @@
     width: 6
     height: 3
   - title: Conversions
-    name: Conversions Single Value
+    name: Conversions Trend
     model: marketing_analytics
     explore: cross_channel_ad_impressions
     type: single_value
@@ -2038,6 +1288,7 @@
       value_format_name: percent_0
       _kind_hint: measure
       _type_hint: number
+    query_timezone: America/Los_Angeles
     custom_color_enabled: false
     custom_color: forestgreen
     show_single_value_title: false
@@ -2046,7 +1297,6 @@
     comparison_type: change
     comparison_reverse_colors: false
     show_comparison_label: false
-    query_timezone: America/Los_Angeles
     stacking: ''
     show_value_labels: false
     label_density: 25
@@ -2119,8 +1369,8 @@
     - fact.total_cost desc
     limit: 10
     column_limit: 50
-    label: Campaign Details
     query_timezone: America/Los_Angeles
+    label: Campaign Details
     show_view_names: false
     show_row_numbers: true
     truncate_column_names: false
@@ -2183,6 +1433,7 @@
     - fact.platform
     limit: 3
     column_limit: 50
+    query_timezone: America/Los_Angeles
     stacking: ''
     colors:
     - "#d06180"
@@ -2222,20 +1473,20 @@
       - id: fact.total_impressions
         name: Impressions
         axisId: fact.total_impressions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1648
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 2222
       - id: fact.total_clicks
         name: Clicks
         axisId: fact.total_clicks
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1653
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 2227
       - id: fact.total_conversions
         name: Conversions
         axisId: fact.total_conversions
-        __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-        __LINE_NUM: 1658
-      __FILE: 1500e16d0623b608c5494007d6fa89ca0a204dd610ea2bbe05080beac8aa896ffe059ff7/cross_channel_overview.dashboard.lookml
-      __LINE_NUM: 1636
+        __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
+        __LINE_NUM: 2232
+      __FILE: 1500e16d0623b608c5494007d6fa89ca887a408ff568507a108e6730995e51d3884cadbb/cross_channel_overview.dashboard.lookml
+      __LINE_NUM: 2210
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -2256,7 +1507,6 @@
     totals_color: "#808080"
     hidden_fields: []
     label: Conversion Rate QTD
-    query_timezone: America/Los_Angeles
     custom_color_enabled: false
     custom_color: forestgreen
     show_single_value_title: true
@@ -2278,94 +1528,711 @@
     col: 0
     width: 12
     height: 6
-  filters:
-  - name: Period
-    title: Period
-    type: field_filter
-    default_value: 28 day
-    allow_multiple_values: false
-    required: true
+  - title: Impressions
+    name: Impressions
     model: marketing_analytics
     explore: cross_channel_ad_impressions
-    listens_to_filters: []
-    field: fact.period
-  - name: Period Latest
-    title: Period Latest
-    type: field_filter
-    default_value: 'Yes'
-    allow_multiple_values: false
-    required: true
+    type: looker_line
+    fields:
+    - fact.date_period_dynamic_grain
+    - fact.platform
+    - fact.total_impressions
+    pivots:
+    - fact.platform
+    filters:
+      fact.period: 28 day
+      fact.date_period_latest: 'Yes'
+      fact.platform: ''
+      fact.channel: ''
+      fact.account_name: ''
+      fact.campaign_name: ''
+      fact.ad_group_name: ''
+    sorts:
+    - fact.date_period_dynamic_grain desc
+    - fact.platform
+    limit: 500
+    column_limit: 50
+    trellis: ''
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea9895"
+    - "#f1e582"
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    hide_legend: true
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_labels:
+      fact.total_cost: Spend
+      fact.total_clicks: Clicks
+    series_types:
+      fact.total_clicks: area
+    limit_displayed_rows: false
+    hidden_series:
+    - fact.average_click_rate
+    - fact.total_clicks
+    y_axes:
+    - label: ''
+      orientation: left
+      series:
+      - id: Google - 1 - fact.total_impressions
+        name: Google
+        axisId: fact.total_impressions
+      - id: LinkedIn - 3 - fact.total_impressions
+        name: LinkedIn
+        axisId: fact.total_impressions
+      - id: Bing - 4 - fact.total_impressions
+        name: Bing
+        axisId: fact.total_impressions
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: false
+    x_axis_scale: time
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    reference_lines: []
+    show_null_points: false
+    interpolation: linear
+    discontinuous_nulls: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    label: Average Cost per Conversion
+    ordering: none
+    show_null_labels: false
+    leftAxisLabelVisible: false
+    leftAxisLabel: ''
+    rightAxisLabelVisible: false
+    rightAxisLabel: ''
+    barColors:
+    - red
+    - blue
+    smoothedBars: false
+    orientation: automatic
+    labelPosition: left
+    percentType: total
+    percentPosition: inline
+    valuePosition: right
+    labelColorEnabled: false
+    labelColor: "#FFF"
+    show_dropoff: true
+    focus_on_hover: false
+    hidden_fields: []
+    row: 8
+    col: 0
+    width: 6
+    height: 3
+  - title: CPM
+    name: CPM
     model: marketing_analytics
     explore: cross_channel_ad_impressions
-    listens_to_filters: []
-    field: fact.date_period_latest
-  - name: Platform
-    title: Platform
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
+    type: looker_line
+    fields:
+    - fact.date_period_dynamic_grain
+    - fact.platform
+    - fact.average_cost_per_impression
+    pivots:
+    - fact.platform
+    filters:
+      fact.period: 28 day
+      fact.date_period_latest: 'Yes'
+      fact.platform: ''
+      fact.channel: ''
+      fact.account_name: ''
+      fact.campaign_name: ''
+      fact.ad_group_name: ''
+    sorts:
+    - fact.date_period_dynamic_grain desc
+    - fact.platform
+    limit: 500
+    column_limit: 50
+    trellis: ''
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea9895"
+    - "#f1e582"
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    hide_legend: true
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_labels:
+      fact.total_cost: Spend
+      fact.total_clicks: Clicks
+    series_types:
+      fact.total_clicks: area
+    limit_displayed_rows: false
+    hidden_series:
+    - fact.average_click_rate
+    - fact.total_clicks
+    y_axes:
+    - label: ''
+      orientation: left
+      series:
+      - id: Google - 1 - fact.average_cost_per_impression
+        name: Google
+        axisId: fact.average_cost_per_impression
+      - id: LinkedIn - 3 - fact.average_cost_per_impression
+        name: LinkedIn
+        axisId: fact.average_cost_per_impression
+      - id: Bing - 4 - fact.average_cost_per_impression
+        name: Bing
+        axisId: fact.average_cost_per_impression
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: false
+    x_axis_scale: time
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    reference_lines: []
+    show_null_points: false
+    interpolation: linear
+    discontinuous_nulls: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    label: Average Cost per Conversion
+    ordering: none
+    show_null_labels: false
+    leftAxisLabelVisible: false
+    leftAxisLabel: ''
+    rightAxisLabelVisible: false
+    rightAxisLabel: ''
+    barColors:
+    - red
+    - blue
+    smoothedBars: false
+    orientation: automatic
+    labelPosition: left
+    percentType: total
+    percentPosition: inline
+    valuePosition: right
+    labelColorEnabled: false
+    labelColor: "#FFF"
+    show_dropoff: true
+    focus_on_hover: false
+    hidden_fields: []
+    row: 8
+    col: 6
+    width: 6
+    height: 3
+  - title: Clicks
+    name: Clicks
     model: marketing_analytics
     explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Period
-    - Period Latest
-    field: fact.platform
-  - name: Channel
-    title: Channel
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
+    type: looker_line
+    fields:
+    - fact.date_period_dynamic_grain
+    - fact.platform
+    - fact.total_clicks
+    pivots:
+    - fact.platform
+    filters:
+      fact.period: 28 day
+      fact.date_period_latest: 'Yes'
+      fact.platform: ''
+      fact.channel: ''
+      fact.account_name: ''
+      fact.campaign_name: ''
+      fact.ad_group_name: ''
+    sorts:
+    - fact.date_period_dynamic_grain desc
+    - fact.platform
+    limit: 500
+    column_limit: 50
+    trellis: ''
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea9895"
+    - "#f1e582"
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    hide_legend: true
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_labels:
+      fact.total_cost: Spend
+      fact.total_clicks: Clicks
+    series_types:
+      fact.total_clicks: area
+    limit_displayed_rows: false
+    hidden_series:
+    - fact.average_click_rate
+    - fact.total_clicks
+    y_axes:
+    - label: ''
+      orientation: left
+      series:
+      - id: Google - 1 - fact.total_clicks
+        name: Google
+        axisId: fact.total_clicks
+      - id: LinkedIn - 3 - fact.total_clicks
+        name: LinkedIn
+        axisId: fact.total_clicks
+      - id: Bing - 4 - fact.total_clicks
+        name: Bing
+        axisId: fact.total_clicks
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: false
+    x_axis_scale: time
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    reference_lines: []
+    show_null_points: false
+    interpolation: linear
+    discontinuous_nulls: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    label: Average Cost per Conversion
+    ordering: none
+    show_null_labels: false
+    leftAxisLabelVisible: false
+    leftAxisLabel: ''
+    rightAxisLabelVisible: false
+    rightAxisLabel: ''
+    barColors:
+    - red
+    - blue
+    smoothedBars: false
+    orientation: automatic
+    labelPosition: left
+    percentType: total
+    percentPosition: inline
+    valuePosition: right
+    labelColorEnabled: false
+    labelColor: "#FFF"
+    show_dropoff: true
+    focus_on_hover: false
+    hidden_fields: []
+    row: 8
+    col: 12
+    width: 6
+    height: 3
+  - title: Cost Per Click
+    name: Cost Per Click
     model: marketing_analytics
     explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Platform
-    - Period
-    - Period Latest
-    field: fact.channel
-  - name: Account
-    title: Account
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
+    type: looker_line
+    fields:
+    - fact.date_period_dynamic_grain
+    - fact.average_cost_per_click
+    - fact.platform
+    pivots:
+    - fact.platform
+    filters:
+      fact.period: 28 day
+      fact.date_period_latest: 'Yes'
+      fact.platform: ''
+      fact.channel: ''
+      fact.account_name: ''
+      fact.campaign_name: ''
+      fact.ad_group_name: ''
+    sorts:
+    - fact.date_period_dynamic_grain desc
+    - fact.platform
+    limit: 500
+    column_limit: 50
+    trellis: ''
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea9895"
+    - "#f1e582"
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    hide_legend: true
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_labels:
+      fact.total_cost: Spend
+      fact.total_clicks: Clicks
+    series_types:
+      fact.total_clicks: area
+    limit_displayed_rows: false
+    hidden_series:
+    - fact.average_click_rate
+    - fact.total_clicks
+    y_axes:
+    - label: ''
+      orientation: left
+      series:
+      - id: Google - 1 - fact.average_cost_per_click
+        name: Google
+        axisId: fact.average_cost_per_click
+      - id: LinkedIn - 3 - fact.average_cost_per_click
+        name: LinkedIn
+        axisId: fact.average_cost_per_click
+      - id: Bing - 4 - fact.average_cost_per_click
+        name: Bing
+        axisId: fact.average_cost_per_click
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: false
+    x_axis_scale: time
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    reference_lines: []
+    show_null_points: false
+    interpolation: linear
+    discontinuous_nulls: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    label: Average Cost per Conversion
+    ordering: none
+    show_null_labels: false
+    leftAxisLabelVisible: false
+    leftAxisLabel: ''
+    rightAxisLabelVisible: false
+    rightAxisLabel: ''
+    barColors:
+    - red
+    - blue
+    smoothedBars: false
+    orientation: automatic
+    labelPosition: left
+    percentType: total
+    percentPosition: inline
+    valuePosition: right
+    labelColorEnabled: false
+    labelColor: "#FFF"
+    show_dropoff: true
+    focus_on_hover: false
+    hidden_fields: []
+    row: 8
+    col: 18
+    width: 6
+    height: 3
+  - title: Conversions
+    name: Conversions
     model: marketing_analytics
     explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Period
-    - Period Latest
-    - Platform
-    - Channel
-    field: fact.account_name
-  - name: Campaign
-    title: Campaign
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
+    type: looker_line
+    fields:
+    - fact.date_period_dynamic_grain
+    - fact.platform
+    - fact.total_conversions
+    pivots:
+    - fact.platform
+    filters:
+      fact.period: 28 day
+      fact.date_period_latest: 'Yes'
+      fact.platform: ''
+      fact.channel: ''
+      fact.account_name: ''
+      fact.campaign_name: ''
+      fact.ad_group_name: ''
+    sorts:
+    - fact.date_period_dynamic_grain desc
+    - fact.platform
+    limit: 500
+    column_limit: 50
+    trellis: ''
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea9895"
+    - "#f1e582"
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    hide_legend: true
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_labels:
+      fact.total_cost: Spend
+      fact.total_clicks: Clicks
+    series_types:
+      fact.total_clicks: area
+    limit_displayed_rows: false
+    hidden_series:
+    - fact.average_click_rate
+    - fact.total_clicks
+    y_axes:
+    - label: ''
+      orientation: left
+      series:
+      - id: Google - 1 - fact.total_conversions
+        name: Google
+        axisId: fact.total_conversions
+      - id: LinkedIn - 3 - fact.total_conversions
+        name: LinkedIn
+        axisId: fact.total_conversions
+      - id: Bing - 4 - fact.total_conversions
+        name: Bing
+        axisId: fact.total_conversions
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: false
+    x_axis_scale: time
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    reference_lines: []
+    show_null_points: false
+    interpolation: linear
+    discontinuous_nulls: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    label: Average Cost per Conversion
+    ordering: none
+    show_null_labels: false
+    leftAxisLabelVisible: false
+    leftAxisLabel: ''
+    rightAxisLabelVisible: false
+    rightAxisLabel: ''
+    barColors:
+    - red
+    - blue
+    smoothedBars: false
+    orientation: automatic
+    labelPosition: left
+    percentType: total
+    percentPosition: inline
+    valuePosition: right
+    labelColorEnabled: false
+    labelColor: "#FFF"
+    show_dropoff: true
+    focus_on_hover: false
+    hidden_fields: []
+    row: 14
+    col: 12
+    width: 6
+    height: 3
+  - title: Cost Per Conversion
+    name: Cost Per Conversion
     model: marketing_analytics
     explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Period
-    - Period Latest
-    - Platform
-    - Channel
-    - Account
-    field: fact.campaign_name
-  - name: Ad Group
-    title: Ad Group
-    type: field_filter
-    default_value: ''
-    allow_multiple_values: true
-    required: false
-    model: marketing_analytics
-    explore: cross_channel_ad_impressions
-    listens_to_filters:
-    - Period
-    - Period Latest
-    - Platform
-    - Channel
-    - Account
-    - Campaign
-    field: fact.ad_group_name
+    type: looker_line
+    fields:
+    - fact.date_period_dynamic_grain
+    - fact.platform
+    - fact.average_cost_per_conversion
+    pivots:
+    - fact.platform
+    filters:
+      fact.period: 28 day
+      fact.date_period_latest: 'Yes'
+      fact.platform: ''
+      fact.channel: ''
+      fact.account_name: ''
+      fact.campaign_name: ''
+      fact.ad_group_name: ''
+    sorts:
+    - fact.date_period_dynamic_grain desc
+    - fact.platform
+    limit: 500
+    column_limit: 50
+    trellis: ''
+    stacking: ''
+    colors:
+    - "#7869df"
+    - "#6e98f9"
+    - "#8ac8ca"
+    - "#d06180"
+    - "#dc9d4f"
+    - "#4bb86a"
+    - "#a4a6a9"
+    - "#a6b7ff"
+    - "#afe8fd"
+    - "#ea9895"
+    - "#f1e582"
+    show_value_labels: false
+    label_density: 25
+    legend_position: center
+    hide_legend: true
+    x_axis_gridlines: false
+    y_axis_gridlines: false
+    show_view_names: false
+    point_style: none
+    series_colors: {}
+    series_labels:
+      fact.total_cost: Spend
+      fact.total_clicks: Clicks
+    series_types:
+      fact.total_clicks: area
+    limit_displayed_rows: false
+    hidden_series:
+    - fact.average_click_rate
+    - fact.total_clicks
+    y_axes:
+    - label: ''
+      orientation: left
+      series:
+      - id: Google - 1 - fact.average_cost_per_conversion
+        name: Google
+        axisId: fact.average_cost_per_conversion
+      - id: LinkedIn - 3 - fact.average_cost_per_conversion
+        name: LinkedIn
+        axisId: fact.average_cost_per_conversion
+      - id: Bing - 4 - fact.average_cost_per_conversion
+        name: Bing
+        axisId: fact.average_cost_per_conversion
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: false
+    show_x_axis_ticks: false
+    x_axis_scale: time
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    reference_lines: []
+    show_null_points: false
+    interpolation: linear
+    discontinuous_nulls: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    label: Average Cost per Conversion
+    ordering: none
+    show_null_labels: false
+    leftAxisLabelVisible: false
+    leftAxisLabel: ''
+    rightAxisLabelVisible: false
+    rightAxisLabel: ''
+    barColors:
+    - red
+    - blue
+    smoothedBars: false
+    orientation: automatic
+    labelPosition: left
+    percentType: total
+    percentPosition: inline
+    valuePosition: right
+    labelColorEnabled: false
+    labelColor: "#FFF"
+    show_dropoff: true
+    focus_on_hover: false
+    hidden_fields: []
+    row: 14
+    col: 18
+    width: 6
+    height: 3
